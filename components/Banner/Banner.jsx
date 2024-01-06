@@ -1,5 +1,4 @@
 import React from "react"
-
 import check from "./img/check.svg"
 import warning from "./img/exclamation.svg"
 import error from "./img/circle.svg"

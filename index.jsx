@@ -6,6 +6,9 @@ import Badge from "./components/Badge/Badge"
 import Banner from "./components/Banner/Banner"
 import Card from "./components/Card/index"
 import TestimonialNoImage from "./components/TestimonialNoImage/TestimonialNoImage"
+import flight from "/components/TestimonialNoImage/logos/flight.png"
+import workation from "/components/TestimonialNoImage/logos/workation.svg"
+
 import { RiSecurePaymentLine } from "react-icons/ri"
 import { FaCloudDownloadAlt } from "react-icons/fa"
 
@@ -61,11 +64,11 @@ function App() {
       <br></br>
       <br></br>
 
-      <TestimonialNoImage type="mobile" logo="/components/TestimonialNoImage/logos/Logo.svg" text="“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”" name="May Andersons" company="Workcation, CTO"/>
+      <TestimonialNoImage type="mobile" logo={workation} text="“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”" name="May Andersons" company="Workcation, CTO"/>
       
-      <TestimonialNoImage type="desktop" logo="/components/TestimonialNoImage/logos/Logo.svg" text="“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”" name="May Andersons" company="Workcation, CTO"/>
+      <TestimonialNoImage type="desktop" logo={workation} text="“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”" name="May Andersons" company="Workcation, CTO"/>
       
-      <TestimonialNoImage type="mobile" logo="/components/TestimonialNoImage/logos/flight.png" text="“Nullam non diam eu tortor pulvinar ultrices non ac sapien. Nulla mollis vehicula placerat. In hac habitasse platea dictumst. Nunc sit amet quam id nunc pellentesque interdum.”" name="John Smith" company="Flight CA, CEO"/>
+      <TestimonialNoImage type="mobile" logo={flight} text="“Nullam non diam eu tortor pulvinar ultrices non ac sapien. Nulla mollis vehicula placerat. In hac habitasse platea dictumst. Nunc sit amet quam id nunc pellentesque interdum.”" name="John Smith" company="Flight CA, CEO"/>
     
     </main>
   )
